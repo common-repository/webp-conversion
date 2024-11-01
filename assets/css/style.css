@@ -1,0 +1,64 @@
+.webpc-plugin-main-container .input-table input[type="range"] {
+    margin-top: 5px;
+}
+
+.webpc-plugin-main-container input[type='submit'] {
+    margin-top: 10px;
+}
+
+.compat-item .media-types-required-info {
+    display: none;
+}
+
+.webpc-counter-and-spinner-inner {
+    display: flex;
+    height: 32px;
+    align-items: center;
+    gap: 10px;
+}
+
+.webpc-single-attach-spinner, .attachments-browser .media-toolbar .media-toolbar-secondary .webpc-convert-selected-spinner {
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #2271b1;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    animation: webpc-spin 1s linear infinite;
+}
+
+.webpc-single-attach-spinner {
+    display: inline-block;
+    margin: 5px 0 0 10px;
+    visibility: visible;
+}
+
+.webpc-counter-and-spinner {
+    display: inline-block;
+}
+
+.webpc-converted-count-container p {
+    margin: 0 !important;
+}
+
+@keyframes webpc-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.webpc-notice {
+    margin: 5px 0 5px !important;
+}
+
+#webpc-notice {
+    margin: 0;
+}
+
+.webpc-plugin-main-container .settings-block{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
